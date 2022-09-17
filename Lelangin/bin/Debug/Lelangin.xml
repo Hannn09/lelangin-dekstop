@@ -1,0 +1,296 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Lelangin
+</name>
+</assembly>
+<members>
+<member name="T:Lelangin.LelanginDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Lelangin.LelanginDataSet.history_lelangDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Lelangin.LelanginDataSet.tb_barangDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Lelangin.LelanginDataSet.tb_lelangDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Lelangin.LelanginDataSet.tb_levelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Lelangin.LelanginDataSet.tb_masyarakatDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Lelangin.LelanginDataSet.tb_petugasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Lelangin.LelanginDataSet.history_lelangRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Lelangin.LelanginDataSet.tb_barangRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Lelangin.LelanginDataSet.tb_lelangRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Lelangin.LelanginDataSet.tb_levelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Lelangin.LelanginDataSet.tb_masyarakatRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Lelangin.LelanginDataSet.tb_petugasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Lelangin.LelanginDataSet.history_lelangRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Lelangin.LelanginDataSet.tb_barangRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Lelangin.LelanginDataSet.tb_lelangRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Lelangin.LelanginDataSet.tb_levelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Lelangin.LelanginDataSet.tb_masyarakatRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Lelangin.LelanginDataSet.tb_petugasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Lelangin.LelanginDataSetTableAdapters.history_lelangTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Lelangin.LelanginDataSetTableAdapters.tb_barangTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Lelangin.LelanginDataSetTableAdapters.tb_lelangTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Lelangin.LelanginDataSetTableAdapters.tb_levelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Lelangin.LelanginDataSetTableAdapters.tb_masyarakatTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Lelangin.LelanginDataSetTableAdapters.tb_petugasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Lelangin.LelanginDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Lelangin.LelanginDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Lelangin.LelanginDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Lelangin.LelanginDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Lelangin.LelanginDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Lelangin.LelanginDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Lelangin.LelanginDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Lelangin.LelanginDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Lelangin.LelanginDataSetTableAdapters.TableAdapterManager.UpdateAll(Lelangin.LelanginDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Lelangin.LelanginDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Lelangin.LelanginDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Lelangin.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Lelangin.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Lelangin.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Lelangin.My.Resources.Resources.back_arrow_icon_icons_com_72866">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Lelangin.My.Resources.Resources.logout">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Lelangin.My.Resources.Resources.Saly_10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Lelangin.My.Resources.Resources.Saly_11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Lelangin.My.Resources.Resources.Saly_14">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Lelangin.My.Resources.Resources.Saly_19">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Lelangin.My.Resources.Resources.Saly_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Lelangin.My.Resources.Resources.Saly_7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:Lelangin.Report_lelang">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Lelangin.Report_lelang.v_barangDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Lelangin.Report_lelang.v_barangRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Lelangin.Report_lelang.v_barangRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Lelangin.Report_lelangTableAdapters.v_barangTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Lelangin.Report_lelangTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Lelangin.Report_lelangTableAdapters.TableAdapterManager.UpdateUpdatedRows(Lelangin.Report_lelang,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Lelangin.Report_lelangTableAdapters.TableAdapterManager.UpdateInsertedRows(Lelangin.Report_lelang,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Lelangin.Report_lelangTableAdapters.TableAdapterManager.UpdateDeletedRows(Lelangin.Report_lelang,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Lelangin.Report_lelangTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Lelangin.Report_lelangTableAdapters.TableAdapterManager.UpdateAll(Lelangin.Report_lelang)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Lelangin.Report_lelangTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Lelangin.Report_lelangTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
